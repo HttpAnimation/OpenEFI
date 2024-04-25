@@ -11,41 +11,14 @@
         color: #e0e0e0;
         margin: 0;
         padding: 20px;
+        scroll-behavior: smooth; /* Smooth scrolling */
     }
     header {
         background-color: #1a1a1a;
         padding: 10px 20px;
         text-align: center;
     }
-    .content {
-        margin: 20px;
-        padding: 20px;
-        background-color: #1e1e1e;
-        border-radius: 8px;
-    }
-
-    .macos {
-        margin: 20px;
-        padding: 20px;
-        background-color: #1e1e1e;
-        border-radius: 8px;
-    }
-
-    .linuxrpm {
-        margin: 20px;
-        padding: 20px;
-        background-color: #1e1e1e;
-        border-radius: 8px;
-    }
-
-    .linuxdeb {
-        margin: 20px;
-        padding: 20px;
-        background-color: #1e1e1e;
-        border-radius: 8px;
-    }
-
-    .nt {
+    .content, .macos, .linuxrpm, .linuxdeb, .nt {
         margin: 20px;
         padding: 20px;
         background-color: #1e1e1e;
@@ -94,25 +67,25 @@
     <a href="#nt" class="download-button">Download OpenEFI (NT)</a>
 </div>
 
-<div class="macos">
+<div class="macos" id="macos">
     <h2>Download for macOS</h2>
     <p>OpenEFI for macOS Intel/ARM</p>
     <a href="ENTERDOWNLOADURL" class="download-button">Download OpenEFI</a>
 </div>
 
-<div class="linuxrpm">
+<div class="linuxrpm" id="linuxrpm">
     <h2>Download for Linux .rpm</h2>
     <p>OpenEFI for Linux 64bit</p>
     <a href="ENTERDOWNLOADURL" class="download-button">Download OpenEFI</a>
 </div>
 
-<div class="linuxdeb">
+<div class="linuxdeb" id="linuxdeb">
     <h2>Download for Linux .deb</h2>
     <p>OpenEFI for Linux 64bit</p>
     <a href="ENTERDOWNLOADURL" class="download-button">Download OpenEFI</a>
 </div>
 
-<div class="nt">
+<div class="nt" id="nt">
     <h2>Download for NT</h2>
     <p>OpenEFI for NT 64bit/32bit</p>
     <a href="ENTERDOWNLOADURL" class="download-button">Download OpenEFI</a>
